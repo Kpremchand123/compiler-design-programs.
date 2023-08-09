@@ -3,7 +3,6 @@
 char *input;
 int i=0;
 char lasthandle[6],stack[50],handles[][5]={")E(","E*E","E+E","i","E^E"};
-//(E) becomes )E( when pushed to stack
 int top=0,l;
 char prec[9][9]={
  /*input*/
